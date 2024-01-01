@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Caveat", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  padding: 10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: end;
+  padding: 10px 10px;
+}
+
+.btn button {
+  padding: 8px 9px;
+  border: none;
+  background-color: rgb(121, 87, 154);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+    background-color: rgba(227, 227, 211, 0.339);
+}
+
+th, td {
+  border: 1.2px solid rgb(147, 144, 144);
+  padding: 5px;
+  color: rgb(84, 84, 205);
+}
+
+td {
+    color: black;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(90, 94, 93, 0.656);
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-body {
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 400px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.popup-body input,
+.popup-body select {
+  border: 1.5px solid rgb(121, 87, 154);
+}
+
+.popup-body input,
+.popup-body select,
+.popup-body button {
+  padding: 7px;
+  border-radius: 5px;
+  background-color: rgba(236, 233, 233, 0.596);
+}
+
+.popup-body input,
+.popup-body select:focus {
+  outline: none;
+}
+
+.popup-body button {
+  background-color: rgb(121, 87, 154);
+  color: white;
+  border: none;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+
+.delButton {
+    padding: 4px 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(197, 64, 64);
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.edtButton {
+    padding: 4px 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(113, 145, 67);
+    color: white;
+    cursor: pointer;
+}
